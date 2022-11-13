@@ -127,10 +127,18 @@ fn main(){
     // }
     // println!("End count = {count}")
     //条件while语句
-    let mut number = 3;
-    while number != 0 {
-        println!("{number}");
-        number -=1
+    // let mut number = 3;
+    // while number != 0 {
+    //     println!("{number}");
+    //     number -=1
+    // }
+    let a = [10,20,30,40,50];
+    // for element in a {
+    //     println!("the value is:{element}");
+    // }
+    //倒计时
+    for number in (1..4).rev(){
+        println!("{number}!");
     }
     println!("LIFTOFF!")
 }
